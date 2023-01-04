@@ -1,3 +1,3 @@
-##0x01. Python - if/else, loops, functions
+### 0x01. Python - if/else, loops, functions
 
-if , else statements , loops and functions in python
+__if , else statements , loops and functions in python__
