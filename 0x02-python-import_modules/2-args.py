@@ -5,7 +5,10 @@ if __name__ == '__main__':
 
     args_number = len(sys.argv) - 1
 
-    print("{} arguments".format(args_number), end='')
+    if args_number == 1:
+        print("{} argument".format(args_number), end='')
+    else:
+        print("{} arguments".format(args_number), end='')
 
     if args_number == 0:
         print('.')
