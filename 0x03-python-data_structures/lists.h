@@ -10,6 +10,7 @@
  * @next: points to the next node
  *
  * Description: singly linked list node structure
+ * for project
  */
 typedef struct listint_s
 {
@@ -29,5 +30,7 @@ void free_listint(listint_t *head);
  * Return: 0 if it is not a palindrome, 1 if it is a palindrome
  */
 int is_palindrome(listint_t **head);
+listint_t *get_nodeint_at_index(listint_t *head, unsigned int index);
+size_t listint_len(const listint_t *h);
 
 #endif /* LISTS_H */
