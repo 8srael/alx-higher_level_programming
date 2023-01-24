@@ -9,3 +9,4 @@ ___This repository contains the folders below :___
 3. [0x03. Python - Data Structures: Lists, Tuples](https://github.com/8srael/alx-higher_level_programming/tree/main/0x03-python-data_structures)
 4. [0x04. Python - More Data Structures: Set, Dictionary](https://github.com/8srael/alx-higher_level_programming/tree/main/0x04-python-more_data_structures)
 5. [0x05. Python - Exceptions](https://github.com/8srael/alx-higher_level_programming/tree/main/0x05-python-exceptions)
+6. [0x06-python-classes](https://github.com/8srael/alx-higher_level_programming/tree/main/0x06-python-classes)
