@@ -65,7 +65,7 @@ def matrix_mul(m_a, m_b):
                 result += column_1 * m_b[nb_rows][nb_columns]
                 nb_rows += 1
             l_row.append(result)
-            nb_colums += 1
+            nb_columns += 1
         mul_matrix.append(l_row)
 
     return mul_matrix
