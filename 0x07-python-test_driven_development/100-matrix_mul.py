@@ -56,16 +56,16 @@ def matrix_mul(m_a, m_b):
     mul_matrix = []
 
     for row_1 in m_a:
-        l = 0
+        nb_columns = 0
         l_row = []
-        while l < len(m_b[0]):
+        while nb_rows < len(m_b[0]):
             result = 0
-            k = 0
+            nb_rows = 0
             for column_1 in row_1:
-                result += column_1 * m_b[k][l]
-                k += 1
+                result += column_1 * m_b[nb_rows][nb_columns]
+                nb_rows += 1
             l_row.append(result)
-            l += 1
+            nb_colums += 1
         mul_matrix.append(l_row)
 
     return mul_matrix
