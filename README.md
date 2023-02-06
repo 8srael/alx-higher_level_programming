@@ -13,4 +13,4 @@ ___This repository contains the folders below :___
 7.  [0x07. Python - Test-driven development](https://github.com/8srael/alx-higher_level_programming/tree/main/0x07-python-test_driven_development)
 8. [0x08. Python - More Classes and Objects](https://github.com/8srael/alx-higher_level_programming/tree/main/0x08-python-more_classes)
 9. [0x09. Python - Everything is object](https://github.com/8srael/alx-higher_level_programming/tree/main/0x09-python-everything_is_object)
-
+10. [0x0A. Python - Inheritance]((https://github.com/8srael/alx-higher_level_programming/tree/main/0x0A-python-inheritance)
