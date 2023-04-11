@@ -21,3 +21,7 @@ ___This repository contains the folders below :___
 
 13. [0x0D. SQL - Introduction](https://github.com/8srael/alx-higher_level_programming/tree/main/0x0D-SQL_introduction)
 14. [0x0E. SQL - More queries](ttps://github.com/8srael/alx-higher_level_programming/tree/main/0x0E-SQL_more_queries)
+
+-------------------------------------------------------------------------------------------------------
+
+15. [0x12. JavaScript - Warm up]((https://github.com/8srael/alx-higher_level_programming/tree/main/0x12-javascript-warm_up)
