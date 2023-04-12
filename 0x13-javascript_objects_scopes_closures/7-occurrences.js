@@ -6,7 +6,7 @@ exports.nbOccurences = function (list, searchElement) {
     if (list[i] === searchElement) {
       ++nbOccurences;
     }
-  }
+  };
 
   return nbOccurences;
 }
