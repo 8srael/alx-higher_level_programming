@@ -25,3 +25,4 @@ ___This repository contains the folders below :___
 -------------------------------------------------------------------------------------------------------
 
 15. [0x12. JavaScript - Warm up](https://github.com/8srael/alx-higher_level_programming/tree/main/0x12-javascript-warm_up)
+16. [0x13. JavaScript - Objects, Scopes and Closures](https://github.com/8srael/alx-higher_level_programming/tree/main/0x13-javascript_objects_scopes_closures)
