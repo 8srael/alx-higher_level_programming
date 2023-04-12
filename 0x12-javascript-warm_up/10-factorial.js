@@ -6,6 +6,7 @@ function factoriel (x) {
  } else {
     return x * factoriel (x - 1);
  }
+}
 
 const argNum = parseInt(process.argv[2]);
 console.log(factoriel(argNum));
