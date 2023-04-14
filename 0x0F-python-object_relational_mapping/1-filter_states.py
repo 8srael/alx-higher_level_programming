@@ -10,9 +10,9 @@ if __name__ == "__main__":
                          passwd=argv[2], db=argv[3], charset='utf8')
     cur = db.cursor()
 
-    query = "SELECT * FROM states"
-    "WHERE states.name LIKE 'N%'"
-    "ORDER BY states.id ASC"
+    query = """SELECT * FROM states
+                WHERE states.name LIKE 'N%'
+                    ORDER BY states.id ASC"""
 
     cur.execute(query)
     dbrows = cur.fetchall()
