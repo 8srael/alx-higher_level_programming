@@ -10,12 +10,14 @@ if __name__ == "__main__":
                          passwd=argv[2], db=argv[3], charset='utf8')
     cur = db.cursor()
 
-    cur.execute("SELECT * FROM states ORDER BY states.id ASC")
+    query = """
+        SELECT * FROM states WHERE states.name = '{}' ORDER BY states.id ASC"""
+    query = query.format(argv[4])
+    cur.execute(query)
     dbrows = cur.fetchall()
 
     for row in dbrows:
-        if row[1] == argv[4]:
-            print(row)
+        print(row)
 
     cur.close()
     db.close()
