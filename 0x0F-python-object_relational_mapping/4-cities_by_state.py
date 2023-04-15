@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-"""Listscities in db"""
+"""Lists cities and thier states in db"""
 
 import MySQLdb
 from sys import argv
