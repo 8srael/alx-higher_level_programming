@@ -20,7 +20,7 @@ if __name__ == "__main__":
     firstState = session.query(State).order_by(State.id).first()
 
     if firstState:
-        print("{}: {}".format(firstObj.id, firstObj.name))
+        print("{}: {}".format(firstState.id, firstState.name))
     else:
         print('Nothing')
 
