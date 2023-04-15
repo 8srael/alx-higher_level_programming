@@ -15,12 +15,7 @@ if __name__ == "__main__":
                         WHERE states.name = %s
                              ORDER BY cities.id ASC""", (argv[4], ))
 
-    dbrows = cur.fetchall()
-
-    for i in range(len(dbrows)):
-        if i == len(dbrows) - 1:
-            print(dbrows[i][0])
-        print(dbrows[i][0], end=", ")
+    print(", ".join(map(lambda a: a[0],cur.fetchall())))
 
     cur.close()
     db.close()
