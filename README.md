@@ -32,3 +32,4 @@ ___This repository contains the folders below :___
 
 18. [0x10. Python - Network #0](https://github.com/8srael/alx-higher_level_programming/tree/main/0x11-python-network_0)
 19. [0x11. Python - Network #1](https://github.com/8srael/alx-higher_level_programming/tree/main/0x11-python-network_1)
+20. [0x15. JavaScript - Web jQuery](https://github.com/8srael/alx-higher_level_programming/tree/main/0x15-javascript-web_jquery)
